@@ -1,0 +1,3 @@
+[33mb33cdd0f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m chore: update .gitignore and remove .next from git
+[33m05435acb[m Remove node_modules and add .gitignore
+[33mfe910b20[m Initial commit
