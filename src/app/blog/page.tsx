@@ -1,6 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+interface BlogPost {
+  title: string
+  excerpt: string
+  image: string
+  date: string
+  author: string
+  category: string
+  readTime: number
+  slug: string
+  tags: string[]
+}
+
 export default function BlogPage() {
   return (
     <div className="section">
@@ -77,6 +89,9 @@ const blogPosts = [
     date: '2024-03-15',
     author: 'Алексей Петров',
     category: 'Корпоративы',
+    readTime: 5,
+    slug: 'organize-corporate-games',
+    tags: ['Корпоративы', 'Тимбилдинг', 'Советы'],
   },
   {
     title: 'Детские праздники с настольными играми',
@@ -85,6 +100,9 @@ const blogPosts = [
     date: '2024-03-10',
     author: 'Мария Иванова',
     category: 'Детские праздники',
+    readTime: 4,
+    slug: 'kids-party-games',
+    tags: ['Детские праздники', 'Развитие', 'Игры'],
   },
   {
     title: 'Развитие навыков через настольные игры',
@@ -93,6 +111,9 @@ const blogPosts = [
     date: '2024-03-05',
     author: 'Дмитрий Сидоров',
     category: 'Развитие',
+    readTime: 6,
+    slug: 'skills-development-games',
+    tags: ['Развитие', 'Образование', 'Навыки'],
   },
   {
     title: 'Как выбрать игру для компании',
@@ -101,6 +122,9 @@ const blogPosts = [
     date: '2024-02-28',
     author: 'Анна Козлова',
     category: 'Советы',
+    readTime: 5,
+    slug: 'choose-game-company',
+    tags: ['Советы', 'Выбор игр', 'Компания'],
   },
   {
     title: 'История настольных игр',
@@ -109,6 +133,9 @@ const blogPosts = [
     date: '2024-02-20',
     author: 'Иван Смирнов',
     category: 'История',
+    readTime: 7,
+    slug: 'board-games-history',
+    tags: ['История', 'Культура', 'Образование'],
   },
   {
     title: 'Организация игровых вечеринок',
@@ -117,5 +144,8 @@ const blogPosts = [
     date: '2024-02-15',
     author: 'Елена Попова',
     category: 'Вечеринки',
+    readTime: 5,
+    slug: 'game-party-organization',
+    tags: ['Вечеринки', 'Игры', 'Развлечения'],
   },
 ] 
