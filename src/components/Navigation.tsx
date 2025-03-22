@@ -17,7 +17,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="bg-white/80 backdrop-blur-md shadow-lg sticky top-0 z-50">
+    <nav className="bg-[#FFE5D9]/80 backdrop-blur-md shadow-lg sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center space-x-3">
@@ -74,7 +74,7 @@ export default function Navigation() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white/80 backdrop-blur-md shadow-lg rounded-lg mt-2">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-[#FFE5D9]/80 backdrop-blur-md shadow-lg rounded-lg mt-2">
               {navigation.map((item) => (
                 <Link
                   key={item.name}

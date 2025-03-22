@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru" className={inter.variable}>
-      <body className="min-h-screen bg-light text-dark flex flex-col">
+      <body className="min-h-screen text-dark flex flex-col">
         <Navigation />
         <main className="flex-grow">
           {children}

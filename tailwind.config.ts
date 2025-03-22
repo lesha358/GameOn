@@ -19,7 +19,7 @@ const config: Config = {
           light: '#F1948A',
           dark: '#C0392B',
         },
-        background: '#F5F6FA',
+        background: '#FFE4E1',
         text: {
           DEFAULT: '#2C3E50',
           light: '#7F8C8D',

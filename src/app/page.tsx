@@ -36,7 +36,7 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20" style={{ backgroundColor: 'var(--background)' }}>
         <div className="container">
           <h2 className="heading-2 text-center mb-12">Почему выбирают нас</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
