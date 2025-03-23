@@ -10,7 +10,7 @@ export default function GamesPage() {
           {games.map((game, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
             >
               <div className="relative h-48">
                 <Image
@@ -20,9 +20,9 @@ export default function GamesPage() {
                   className="object-cover"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="heading-3 mb-2">{game.title}</h3>
-                <p className="text-gray-600 mb-4">{game.description}</p>
+                <p className="text-gray-600 mb-4 flex-grow">{game.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {game.tags.map((tag, tagIndex) => (
                     <span
@@ -33,7 +33,7 @@ export default function GamesPage() {
                     </span>
                   ))}
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center mt-auto">
                   <span className="text-xl font-bold text-primary">{game.price}</span>
                   <button className="btn btn-primary">
                     Подробнее

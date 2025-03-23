@@ -77,7 +77,7 @@ export default function HomePage() {
           <h2 className="heading-2 text-center mb-8 sm:mb-12">Популярные игры</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8">
             {popularGames.map((game, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
                 <div className="relative h-40 sm:h-48">
                   <Image
                     src={game.image}
@@ -86,9 +86,9 @@ export default function HomePage() {
                     className="object-cover"
                   />
                 </div>
-                <div className="p-4 sm:p-6">
+                <div className="p-4 sm:p-6 flex flex-col flex-grow">
                   <h3 className="heading-3 mb-2">{game.title}</h3>
-                  <p className="text-sm sm:text-base text-gray-600 mb-4">{game.description}</p>
+                  <p className="text-sm sm:text-base text-gray-600 mb-4 flex-grow">{game.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {game.tags.map((tag, tagIndex) => (
                       <span
