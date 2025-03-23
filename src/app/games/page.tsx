@@ -55,7 +55,7 @@ const games = [
     players: '3-6',
     duration: '1-2 часа',
     price: 'от 2 000 ₽',
-    image: '/images/games/mafia.jpg',
+    image: '/images/games/manchkin.jpg',
     tags: ['Ролевая', 'Карточная', '3-6 игроков'],
   },
   {
@@ -73,7 +73,7 @@ const games = [
     players: '2-4',
     duration: '1-2 часа',
     price: 'от 3 000 ₽',
-    image: '/images/games/quiz.jpg',
+    image: '/images/games/colonizers.jpg',
     tags: ['Стратегия', '2-4 игрока'],
   },
   {
@@ -82,7 +82,7 @@ const games = [
     players: '2-5',
     duration: '30-45 минут',
     price: 'от 2 800 ₽',
-    image: '/images/games/crocodile.jpg',
+    image: '/images/games/carcassonne.jpg',
     tags: ['Стратегия', '2-5 игроков'],
   },
   {
@@ -100,7 +100,7 @@ const games = [
     players: '2+',
     duration: '15-30 минут',
     price: 'от 1 500 ₽',
-    image: '/images/games/danetki.jpg',
+    image: '/images/games/jenga.jpg',
     tags: ['Ловкость', '2+ игрока'],
   },
 ] 

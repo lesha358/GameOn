@@ -118,7 +118,7 @@ const popularGames = [
   {
     title: 'Манчкин',
     description: 'Карточная ролевая игра, где каждый игрок стремится достичь 10 уровня.',
-    image: '/images/games/mafia.jpg',
+    image: '/images/games/manchkin.jpg',
     tags: ['Ролевая', 'Карточная', '3-6 игроков'],
   },
   {
@@ -130,7 +130,7 @@ const popularGames = [
   {
     title: 'Колонизаторы',
     description: 'Стратегическая игра, где игроки строят поселения и торгуют ресурсами.',
-    image: '/images/games/quiz.jpg',
+    image: '/images/games/colonizers.jpg',
     tags: ['Стратегия', '2-4 игрока'],
   },
 ] 
