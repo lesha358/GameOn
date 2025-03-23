@@ -85,7 +85,7 @@ const blogPosts = [
   {
     title: 'Как организовать корпоратив с настольными играми',
     excerpt: 'Советы по организации успешного корпоративного мероприятия с настольными играми',
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/blog/corporate.jpg',
     date: '2024-03-15',
     author: 'Алексей Петров',
     category: 'Корпоративы',
@@ -96,7 +96,7 @@ const blogPosts = [
   {
     title: 'Детские праздники с настольными играми',
     excerpt: 'Как сделать детский праздник увлекательным и развивающим',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/blog/kids-party.jpg',
     date: '2024-03-10',
     author: 'Мария Иванова',
     category: 'Детские праздники',
@@ -107,7 +107,7 @@ const blogPosts = [
   {
     title: 'Развитие навыков через настольные игры',
     excerpt: 'Как настольные игры помогают развивать важные навыки',
-    image: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/blog/development.jpg',
     date: '2024-03-05',
     author: 'Дмитрий Сидоров',
     category: 'Развитие',
@@ -118,7 +118,7 @@ const blogPosts = [
   {
     title: 'Как выбрать игру для компании',
     excerpt: 'Руководство по выбору подходящей настольной игры',
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/blog/board-games.jpg',
     date: '2024-02-28',
     author: 'Анна Козлова',
     category: 'Советы',
@@ -129,7 +129,7 @@ const blogPosts = [
   {
     title: 'История настольных игр',
     excerpt: 'От древних времен до современности: эволюция настольных игр',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/blog/history.jpg',
     date: '2024-02-20',
     author: 'Иван Смирнов',
     category: 'История',
@@ -140,7 +140,7 @@ const blogPosts = [
   {
     title: 'Организация игровых вечеринок',
     excerpt: 'Советы по организации успешной игровой вечеринки',
-    image: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/blog/party.jpg',
     date: '2024-02-15',
     author: 'Елена Попова',
     category: 'Вечеринки',

@@ -55,7 +55,7 @@ const games = [
     players: '3-6',
     duration: '1-2 часа',
     price: 'от 2 000 ₽',
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/mafia.jpg',
     tags: ['Ролевая', 'Карточная', '3-6 игроков'],
   },
   {
@@ -64,7 +64,7 @@ const games = [
     players: '4-8',
     duration: '30-60 минут',
     price: 'от 2 500 ₽',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/imaginarium.jpg',
     tags: ['Творческая', '4-8 игроков'],
   },
   {
@@ -73,7 +73,7 @@ const games = [
     players: '2-4',
     duration: '1-2 часа',
     price: 'от 3 000 ₽',
-    image: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/quiz.jpg',
     tags: ['Стратегия', '2-4 игрока'],
   },
   {
@@ -82,7 +82,7 @@ const games = [
     players: '2-5',
     duration: '30-45 минут',
     price: 'от 2 800 ₽',
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/crocodile.jpg',
     tags: ['Стратегия', '2-5 игроков'],
   },
   {
@@ -91,7 +91,7 @@ const games = [
     players: '4+',
     duration: '30-60 минут',
     price: 'от 1 800 ₽',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/alias.jpg',
     tags: ['Командная', '4+ игрока'],
   },
   {
@@ -100,7 +100,7 @@ const games = [
     players: '2+',
     duration: '15-30 минут',
     price: 'от 1 500 ₽',
-    image: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/danetki.jpg',
     tags: ['Ловкость', '2+ игрока'],
   },
 ] 

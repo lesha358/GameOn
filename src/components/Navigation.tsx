@@ -23,7 +23,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center space-x-3">
             <div className="relative w-24 h-24">
               <Image
-                src="https://static.tildacdn.com/tild3864-6330-4663-b330-643466316137/Untitled-1_copy_2__.png"
+                src="/images/logo.png"
                 alt="Game On Logo"
                 fill
                 className="object-contain"

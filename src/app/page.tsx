@@ -8,7 +8,7 @@ export default function HomePage() {
       <section className="relative h-[400px] sm:h-[600px] flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2000&auto=format&fit=crop"
+            src="/images/blog/board-games.jpg"
             alt="Настольные игры"
             fill
             className="object-cover brightness-50"
@@ -118,19 +118,19 @@ const popularGames = [
   {
     title: 'Манчкин',
     description: 'Карточная ролевая игра, где каждый игрок стремится достичь 10 уровня.',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/mafia.jpg',
     tags: ['Ролевая', 'Карточная', '3-6 игроков'],
   },
   {
     title: 'Имаджинариум',
     description: 'Творческая игра в ассоциации, где игроки придумывают и угадывают образы.',
-    image: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/imaginarium.jpg',
     tags: ['Творческая', '4-8 игроков'],
   },
   {
     title: 'Колонизаторы',
     description: 'Стратегическая игра, где игроки строят поселения и торгуют ресурсами.',
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/games/quiz.jpg',
     tags: ['Стратегия', '2-4 игрока'],
   },
 ] 

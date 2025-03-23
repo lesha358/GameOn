@@ -25,7 +25,7 @@ const events: Event[] = [
     location: 'Офис GameOn',
     price: 1500,
     description: 'Увлекательный тимбилдинг с настольными играми для вашей команды. Идеально подходит для укрепления командного духа и улучшения коммуникации между сотрудниками.',
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/events/team-building.jpg',
     maxParticipants: 20,
     currentParticipants: 12
   },
@@ -37,7 +37,7 @@ const events: Event[] = [
     location: 'Детский центр GameOn',
     price: 1000,
     description: 'Весёлый праздник с настольными играми для детей. Включает аниматора, призы и угощения.',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/events/kids-party.jpg',
     maxParticipants: 15,
     currentParticipants: 8
   },
@@ -49,7 +49,7 @@ const events: Event[] = [
     location: 'Игровой клуб GameOn',
     price: 500,
     description: 'Турнир по популярным настольным играм. Призы для победителей и угощения для всех участников.',
-    image: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/events/tournament.jpg',
     maxParticipants: 30,
     currentParticipants: 20
   }

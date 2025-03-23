@@ -18,7 +18,7 @@ export default function AboutPage() {
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop"
+              src="/images/blog/history.jpg"
               alt="Наша команда"
               fill
               className="object-cover"
@@ -29,7 +29,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-[400px] rounded-lg overflow-hidden order-2 md:order-1">
             <Image
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop"
+              src="/images/blog/team-building.jpg"
               alt="Наши мероприятия"
               fill
               className="object-cover"
@@ -49,7 +49,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div className="relative h-64 rounded-lg overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000&auto=format&fit=crop"
+              src="/images/blog/party.jpg"
               alt="Наша команда за игрой"
               fill
               className="object-cover"
@@ -57,7 +57,7 @@ export default function AboutPage() {
           </div>
           <div className="relative h-64 rounded-lg overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1000&auto=format&fit=crop"
+              src="/images/blog/board-games.jpg"
               alt="Веселое мероприятие"
               fill
               className="object-cover"
@@ -71,7 +71,7 @@ export default function AboutPage() {
           <div className="text-center">
             <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop"
+                src="/images/team/alex.jpg"
                 alt="Александр Петров"
                 fill
                 className="object-cover"
@@ -84,7 +84,7 @@ export default function AboutPage() {
           <div className="text-center">
             <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop"
+                src="/images/team/elena.jpg"
                 alt="Елена Смирнова"
                 fill
                 className="object-cover"
@@ -97,7 +97,7 @@ export default function AboutPage() {
           <div className="text-center">
             <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1000&auto=format&fit=crop"
+                src="/images/team/dmitry.jpg"
                 alt="Дмитрий Иванов"
                 fill
                 className="object-cover"
