@@ -8,7 +8,7 @@ export default function HomePage() {
       <section className="relative h-[400px] sm:h-[600px] flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/blog/board-games.jpg"
+            src="/images/background.jpg"
             alt="Настольные игры"
             fill
             className="object-cover brightness-50"
