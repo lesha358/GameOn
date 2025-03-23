@@ -79,7 +79,7 @@ export default function EventsPage() {
         {events.map((event) => (
           <div
             key={event.id}
-            className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+            className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col"
           >
             <div className="relative h-48">
               <Image
@@ -89,10 +89,10 @@ export default function EventsPage() {
                 className="object-cover"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
               <h2 className="text-xl font-semibold mb-2">{event.title}</h2>
-              <p className="text-gray-600 mb-4">{event.description}</p>
-              <div className="space-y-2">
+              <p className="text-gray-600 mb-4 flex-grow">{event.description}</p>
+              <div className="space-y-2 mb-4">
                 <p className="flex items-center">
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -121,7 +121,7 @@ export default function EventsPage() {
               </div>
               <button
                 onClick={() => setSelectedEvent(event)}
-                className="mt-6 w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors"
+                className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto"
               >
                 Зарегистрироваться
               </button>
