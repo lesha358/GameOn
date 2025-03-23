@@ -29,7 +29,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-[400px] rounded-lg overflow-hidden order-2 md:order-1">
             <Image
-              src="/images/blog/team-building.jpg"
+              src="/images/events/team-building.jpg"
               alt="Наши мероприятия"
               fill
               className="object-cover"
@@ -49,7 +49,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div className="relative h-64 rounded-lg overflow-hidden">
             <Image
-              src="/images/blog/party.jpg"
+              src="/images/events/party.jpg"
               alt="Наша команда за игрой"
               fill
               className="object-cover"
@@ -57,7 +57,7 @@ export default function AboutPage() {
           </div>
           <div className="relative h-64 rounded-lg overflow-hidden">
             <Image
-              src="/images/blog/board-games.jpg"
+              src="/images/events/board-games.jpg"
               alt="Веселое мероприятие"
               fill
               className="object-cover"
