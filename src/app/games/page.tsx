@@ -12,12 +12,13 @@ export default function GamesPage() {
               key={index}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
             >
-              <div className="relative h-48">
+              <div className="relative w-full aspect-[4/3] bg-gray-100">
                 <Image
                   src={game.image}
                   alt={game.title}
                   fill
-                  className="object-cover"
+                  className="object-contain p-4"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-6 flex flex-col flex-grow">
